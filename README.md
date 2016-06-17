@@ -27,7 +27,7 @@ mkdir -p /tmp/repo
 cd /tmp/repo
 git init
 docker run --rm -it -v /tmp/repo:/repo dylanmei/blackbox blackbox_initialize
-``
+```
 
 add an admin
 
